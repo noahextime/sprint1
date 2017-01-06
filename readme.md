@@ -1,1 +1,1 @@
-- This is a read me where we specify what going on in repo.
+- This is a read me where we specify what's going on in repo.
