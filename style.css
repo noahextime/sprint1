@@ -1,3 +1,12 @@
 * {
-  font-family: 'Georgia' , 'Times' , 'Serif'
+  font-family: 'Georgia' , 'Times' , 'Serif';
+  border: 1px solid dodgerblue;
 }
+
+nav {
+  display: inline-block;
+}
+
+.li {border-bottom: }
+body{background-color: ivory;}
+p {color: seagreen;}
