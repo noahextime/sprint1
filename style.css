@@ -11,7 +11,7 @@ background-attachment: local;
 }
 
 .container{
-  position: sticky;
+  /*position: sticky; */
 }
 
 #header {
@@ -26,6 +26,7 @@ background-attachment: local;
   border-left: 4px solid red;
   border-top: 4px solid red;
   background-image: url("http://vegasroots.org/wp-content/uploads/2014/11/fresh-veggies.jpg");
+  z-index: 1;
 }
 
 #nav {
@@ -35,7 +36,7 @@ background-attachment: local;
   text-decoration: none;
   position: fixed;
   top: 124px;
-  background-image: url("http://www.chuckboecking.com/wp-content/uploads/2014/10/chalkboard-slider-bg.jpg");
+  z-index: 1;
   /*This is not working, here or in the ul part of css */
 }
 
@@ -51,6 +52,8 @@ ul{
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: dodgerblue;
+
 }
 
 li a {
@@ -90,17 +93,17 @@ h1 {
 .main{
   position: relative;
 /*  width: 100%; */
-  border: 4px solid ivory;
   width: border-box;
-  margin-top: 370px;
+  margin-top: 200px;
   margin-bottom: 12px;
   background-attachment: fixed;
 }
 
 #about{
   border: 4px solid red;
-  top: 184px;
+  top: 150px;
   width: border-box;
+  margin-top: 18px;
   position: relative;
 }
 
@@ -108,6 +111,7 @@ h1 {
   width:auto;
   padding: 10px;
   position: relative;
+  border: 4px solid ivory;
 }
 
 
@@ -143,9 +147,10 @@ h4 {
 
 button{
   display: inline-block;
-  background-color: dodgerblue;
+  position: relative;
+  background-color: lightgray;
   padding: 15px 32px;
-  font-size: 16px;
+  font-size: 24px;
   display: inline-block;
   text-decoration: none;
   text-align: center;
