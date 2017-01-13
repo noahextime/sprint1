@@ -1,34 +1,9 @@
 * {
   font-family: 'Courier New';
-  background-position: center;
   background-size: auto;
   box-sizing: border-box;
   max-width: 1600px;
   /*border: 1px solid gray;*/
-}
-
-background-attachment: local;
- /*border: 1px solid gray;*/
-}
-
-.container{
-  /*position: sticky; */
-}
-
-#header {
-  margin: auto;
-  position: fixed;
-  overflow: hidden;
-  top: 55px;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 10px 20px;
-  border-left: 4px solid red;
-  border-top: 4px solid red;
-  background-image: url("http://vegasroots.org/wp-content/uploads/2014/11/fresh-veggies.jpg");
-  background-position: center;
-  background-attachment: local;
-  z-index: 1;
 }
 
 #nav {
@@ -37,14 +12,65 @@ background-attachment: local;
   display: inline-block;
   text-decoration: none;
   position: fixed;
-  top: 124px;
   z-index: 1;
-  /*This is not working, here or in the ul part of css */
 }
 
-li{
-  /*float: left;
-  list-style-type: none; */
+#header {
+  margin-top: 55px;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2px 20px;
+  border-left: 4px solid red;
+  border-top: 4px solid red;
+  background-image: url("http://vegasroots.org/wp-content/uploads/2014/11/fresh-veggies.jpg");
+  background-position: center;
+  background-attachment: local;
+  z-index: 1;
+}
+
+#about{
+  border: 2px solid red;
+  width: border-box;
+  margin-bottom: 8px;
+  padding: 14px;
+  background-image: url("http://www.chuckboecking.com/wp-content/uploads/2014/10/chalkboard-slider-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#dinnermenu {
+  width: border-box;
+  text-align: center;
+  padding: 18px 8px;
+  border: 2px solid firebrick;
+  background-image: url("http://www.chuckboecking.com/wp-content/uploads/2014/10/chalkboard-slider-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#RSVP {
+  width: border-box;
+  text-align: center;
+  padding: 10px;
+  margin-top: 8px;
+  position: relative;
+  border: 2px solid firebrick;
+  background-image: url("https://coolcookstyle.files.wordpress.com/2011/04/p1000825.jpg");
+  background-attachment: fixed;
+}
+
+#foot {
+  margin-top: 18px;
+  padding: 22px;
+  background-color: rgb(38, 37, 38);
+}
+
+#closer{
+  text-align: left;
+  font-size: smaller;
+  color: aliceblue;
+  border-bottom: 4px solid red;
 }
 
 ul{
@@ -91,37 +117,16 @@ h1 {
   color: aliceblue;
   font-size: 250%;
   letter-spacing: 2px;
+  padding: 4px;
 }
 
 .main{
   position: relative;
-/*  width: 100%; */
   width: border-box;
-  margin-top: 128px;
+  margin-top: 2px;
   margin-bottom: 12px;
   background-attachment: fixed;
 }
-
-#about{
-  border: 2px solid red;
-  top: 122px;
-  width: border-box;
-  margin-top: 18px;
-  position: relative;
-  background-image: url("http://www.chuckboecking.com/wp-content/uploads/2014/10/chalkboard-slider-bg.jpg");
-  background-attachment: fixed;
-}
-
-#dinnermenu {
-  width: border-box;
-  text-align: center;
-  padding: 10px;
-  position: relative;
-  border: 2px solid firebrick;
-  background-image: url("http://www.chuckboecking.com/wp-content/uploads/2014/10/chalkboard-slider-bg.jpg");
-  background-attachment: fixed;
-}
-
 
 h2 {
   font-size: 190%;
@@ -137,7 +142,6 @@ h3 {
 }
 
 body {
-/*  background-color: ghostwhite; */
 background-color: black;
 }
 
@@ -157,16 +161,6 @@ h4 {
   color: firebrick;
 }
 
-#RSVP {
-  width: border-box;
-  text-align: center;
-  padding: 10px;
-  margin-top: 8px;
-  position: relative;
-  border: 2px solid firebrick;
-  background-image: url("https://coolcookstyle.files.wordpress.com/2011/04/p1000825.jpg");
-  background-attachment: fixed;
-}
 button{
   display: inline-block;
   position: relative;
@@ -181,21 +175,11 @@ button{
 }
 
 button:hover{
-  background-color: firebrick;
   color: floralwhite;
+  background-color: firebrick;
+  font-weight: bolder;
 }
 
 button:active{
-  transform: translateY(4px);
-}
-
-#foot {
-  padding-top: 22px;
-  background-color: rgb(38, 37, 38);
-}
-
-#closer{
-  text-align: left;
-  color: aliceblue;
-  border-bottom: 4px solid red;
+  transform: translateY(4px); //adds pushed effect
 }
