@@ -28,11 +28,8 @@ background-color: black;
   text-align: center;
   text-shadow: 4px 4px black;
   border-top: 4px solid red;
-  background-image: url(/images/castironpots.jpg);
-  background-position: center;
+  background: black url(images/castironpots.jpg) no-repeat fixed center;
   background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   z-index: 1;
 }
 
@@ -43,11 +40,8 @@ background-color: black;
   margin: 12px 0px 8px 0px;
   padding: 18px 14px;
   opacity: .8;
-  background-image: url(images/freshveggies.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
+  background: black url(images/freshveggies.jpg) no-repeat fixed bottom;
   background-size: cover;
-  background-attachment: fixed;
   font-weight: 500;
 }
 
