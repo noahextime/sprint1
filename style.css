@@ -28,7 +28,7 @@ background-color: black;
   text-align: center;
   text-shadow: 4px 4px black;
   border-top: 4px solid red;
-  background-image: url("/images/castironpots.jpg");
+  background-image: url(/images/castironpots.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -43,7 +43,7 @@ background-color: black;
   margin: 12px 0px 8px 0px;
   padding: 18px 14px;
   opacity: .8;
-  background-image: url("/freshveggies.jpg");
+  background-image: url(images/freshveggies.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -72,15 +72,14 @@ background-color: black;
   z-index: 1;
 }
 
-#pizzabg{
-  /*background-image: url("https://media.giphy.com/media/ymM3oCVHNXISA/giphy.gif"); dancing pizza bg */
+#rsvpbg{
   background-size: cover;
   opacity: .8;
   background-position: center;
   background-attachment: fixed;
   border: solid 2px firebrick;
   border-radius: 8px;
-  background-image: url("/images/campsetup.jpeg");
+  background-image: url(images/campsetup.jpeg);
 }
 
 #foot {
