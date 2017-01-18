@@ -43,7 +43,7 @@ background-color: black;
   margin: 12px 0px 8px 0px;
   padding: 18px 14px;
   opacity: .8;
-  background-image: url("/Users/Courtneynash/DEV_ENV/first-sprint/images/campsetup.jpeg");
+  background-image: url("/Users/courtneynash/DEV_ENV/first-sprint/images/freshveggies.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -70,7 +70,6 @@ background-color: black;
   margin: 12px 12px;
   position: relative;
   z-index: 1;
-  /*background-image: url("https://coolcookstyle.files.wordpress.com/2011/04/p1000825.jpg");*/
 }
 
 #pizzabg{
@@ -81,8 +80,7 @@ background-color: black;
   background-attachment: fixed;
   border: solid 2px firebrick;
   border-radius: 8px;
-  background-image: url("/Users/courtneynash/DEV_ENV/first-sprint/images/freshveggies.jpg");
-
+  background-image: url("/Users/Courtneynash/DEV_ENV/first-sprint/images/campsetup.jpeg");
 }
 
 #foot {
