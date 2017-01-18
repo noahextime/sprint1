@@ -43,7 +43,7 @@ background-color: black;
   margin: 12px 0px 8px 0px;
   padding: 18px 14px;
   opacity: .8;
-  background-image: url("/Users/courtneynash/DEV_ENV/first-sprint/images/freshveggies.jpg");
+  background-image: url("/Users/courtneynash/DEV_ENV/first-sprint/images/ingredient.gif");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -101,6 +101,7 @@ background-color: black;
 p {
   font-size: 18px;
   color: white;
+  font-weight: bold;
   text-align: center;
   padding: 8px;
   margin: 4px;
