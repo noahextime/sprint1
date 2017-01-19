@@ -10,19 +10,35 @@ body {
 background-color: black;
 }
 
-#nav {
-  text-transform: uppercase;
-  list-style-type: none;
-  display: inline-block;
-  text-decoration: none;
-  position: fixed;
-  z-index: 1;
+.jumbotron {
+background-image: url('images/castironpots.jpg');
+background-size: cover;
+background-attachment: fixed;
+color: #ffffff;
+padding: 100px 25px;
 }
 
-.jumbotron{
-background-image: url('images/castironpots.jpg');
-color: #ffffff;
-background-size: cover;
+.navbar-brand{
+  color: ghostwhite;
+  font-size: 120%;
+}
+
+.navbar-nav{
+  color: ghostwhite;
+  font-size: 110%;
+}
+
+.navbar-btn{
+  padding-left: 22px;
+  padding-right: 22px;
+  color: ghostwhite;
+  font-size: 120%;
+}
+
+.bg-chalk{
+  background-image: url("images/chalkboard.jpeg");
+  background-attachment: fixed;
+  padding: 80px 25px;
 }
 
 #about{
@@ -119,29 +135,14 @@ h4 {
   color: firebrick;
 }
 
-li{
-  float: left;
-}
-
-ul{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: black;
-
-}
-
+/*
 li a {
   text-decoration: none;
   color: white;
-  display: inline-block;
   font-size: 20px;
   text-align: center;
-  border-top: 4px solid red;
-  padding: 14px 18px;
+  border-top: 2px solid red;
+  padding: 12px 14px;
   margin: 0px;
   transition: 0.3s;
   width: 100%;
@@ -151,15 +152,15 @@ li a:hover{
   color: darkslategray;
   background-color: white;
   font-weight: bolder;
-  border-top: 4px solid rgb(219,45,33);
+  border-top: 2px solid rgb(219,45,33);
 }
 
-li a:active{
-  background-color: red;
-  color: white;
+li:active{
+  background-color: darkslategray;
+  color: red;
   font-weight: bolder;
   transform: translateY(4px); //adds pushed effect
-}
+} */
 
 .main{
   position: relative;
