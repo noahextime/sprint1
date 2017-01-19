@@ -10,10 +10,29 @@
   </head><!--closing header tag-->
 
   <body><!--BODY BEGINS-->
-  <div id="header" class="container">
-      <h1>FAMILY DINNER</h1>
-  </div>
 
+  <style>
+    .jumbotron{
+    background-image: url('images/castironpots.jpg');
+    color: #ffffff;
+    background-size: cover;
+  }
+  </style>
+
+      <div class="jumbotron text-center">
+            <h1>FAMILY DINNER</h1>
+            <p>A Place To Eat</p>
+            <form class="form-inline">
+              <div class="input-group">
+                <input type="tastepref" class="form-control" size="50" placeholder="What are you hungry for?" required>
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-danger">Thank You, Chef!</button>
+                </div>
+              </div>
+            </form>
+      </div><!--end jumbotron-->
+
+  <!-- MAKE INTO NAV USING BOOTSTRAP -->
   <div id="nav" class="container">
       <ul>
         <li><a href="#about"/>ABOUT</a></li>
@@ -22,8 +41,8 @@
         <li><a href="#"/>HOME</a></li>
       </ul>
     </div>
-<br><br>
 
+<!-- REDO SECTIONS USING BOOTSTRAP -->
 <div class="main">
   <div id="about">
 <h2> What is 'Family Dinner?'</h2>
@@ -49,9 +68,10 @@
       <div id="rsvpbg"/>
       <div id="RSVP" ><h1>RSVP</h1>
         <button id="invite" type="button">I'm Coming Through!</button></div><!--end RSVP-->
-      </div><!--end pizzabg-->
-
+      </div><!--end resvpbg-->
     </body><!--closing body tag-->
+
+<!--REDO FOOTER USING BOOTSTRAP-->
   <footer>
     <div class="footer" id="foot">
       <p>Family Dinner: A Place To Eat</p>
@@ -60,7 +80,8 @@
       <p id="closer"> Mama, We Made It (2017) Copyright (c) 2016 Copyright Holder All Rights Reserved.</p>
     </div>
   </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="/index.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><!--JQuery Library-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><!--Bootstrap JS Library-->
+<script src="/index.js"></script><!--My .JS File-->
 </html>
