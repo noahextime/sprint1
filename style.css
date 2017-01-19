@@ -40,7 +40,7 @@ background-color: black;
   margin: 12px 0px 8px 0px;
   padding: 18px 14px;
   opacity: .8;
-  background: black url(images/freshveggies.jpg) no-repeat fixed bottom;
+  background: black url(images/ingredient.gif) no-repeat fixed bottom;
   background-size: cover;
   font-weight: 500;
 }
