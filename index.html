@@ -27,52 +27,82 @@
 
     <div class="jumbotron text-center">
             <h1>FAMILY DINNER</h1>
-            <p>A Place To Eat</p>
+            <p>Craft A Meal For Everyone</p>
           <form class="form-inline">
               <div class="input-group">
                 <input type="tastepref" class="form-control" size="50" placeholder="What are you hungry for?" required>
                 <div class="input-group-btn">
                   <button type="button" class="btn btn-danger">Thank You, Chef!</button>
                 </div>
+                <div class="info-btn">
+                  </div>
               </div>
           </form>
     </div><!--end jumbotron-->
 
 <!-- REDO SECTIONS USING BOOTSTRAP -->
-<!--new BS About-->
 <div class="bg-1">
   <h2>What is Family Dinner?</h2>
-  <h3>Family Dinner is not quite a restaraunt, but more than a house.</h3>
-  <h3>It is OK people eating OK food together.</h3>
-  <h3><mark>Including you.</mark></h3>
-</div>
+    <img src="images/steak.gif" alt="homechef" width="480" height="420" class="img-circle">
+      <h4>Family Dinner is not a meal planning tool, but more than an RSVP.</h4>
+      <h4>It is a demo site built by a home chef, for home chefs.</h4>
+      <h3><mark>Including you.</mark></h3>
+    </div>
 
-<!--new BS Menu-->
 <div class="container-fluid bg-chalk">
-  <h1>THIS WEEK'S MENU</h1>
+  <div class="container howitworks">
+  <h1>HOW IT WORKS:</h1>
+    <br>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
+<!--Indicators-->
+<ol class="carousel-indicators">
+  <li data-target="myCarousel" data-slide-to="0" class="active"></li>
+  <li data-target="myCarousel" data-slide-to="1"></li>
+  <li data-target="myCarousel" data-slide-to="2"></li>
+  <li data-target="myCarousel" data-slide-to="3"></li>
+</ol>
+
+<div class="carousel-inner" role="list-box">
+  <div class="item active">
+    <h3>First, dinner guests give their taste preferences<br><br><span class="glyphicon glyphicon-pushpin"></span></h3>
+    <p>We are looking out for your budget and the environment, that's why we preload options that are local and in season</p>
 </div>
 
-<div class="main">
+  <div class="item">
+    <h3>Then, the Family Dinner algorithm crunches the data<br><br><span class="glyphicon glyphicon-fire"></span></h3>
+    <p>Taking into account your budget, guests, and time</p>
+  </div>
 
-  <div id="dinnermenu">
-      <h1>THIS WEEK'S MENU</h1>
-      <div id="appetizer"><h2>ROASTED BRUSSEL SPROUTS</h2>
-          <h3>Curdled Butter, Garlic, Floor Spice</h3>
-          </div>
-        <div id="entree"><h2>DEEP DISH PIZZA</h2>
-          <h3>Humidity Ripened Tomato, Wilted Greens, Forgotten Onion</h3>
-          </div>
-        <div id="dessert"><h2>DANK CHOCOLATE CAKE</h2>
-          <h3>W/Freezerburned Homemade Icecream and Feelings</h3>
-        </div><!--Dessert div ends-->
-      </div><!--dinner menu ends-->
-      </div><!--main div ends-->
+  <div class="item">
+     <h3>And produces for you-the chef-the golden ticket!<br><br><span class="glyphicon glyphicon-ok-circle"></span></h3>
+     <p>A personalized plan for you to craft a dinner everyone will enjoy.</p>
+   </div>
+ </div>
+ <br><br><br>
 
-      <div id="rsvpbg"/>
-      <div id="RSVP" ><h1>RSVP</h1>
-        <button id="invite" type="button">I'm Coming Through!</button></div><!--end RSVP-->
-      </div><!--end resvpbg-->
+   <li data-target="myCarousel" data-slide-to="1"></li>
+   <a class="left carousel-control" href="myCarousel" data-slide="prev">
+
+     <!--carousel controls-->
+<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+   </div>
+ </div>
+</div>
+<!--fix code from here below-->
+<!-- -->
+<div class="container-fluid rsvpbg">
+  <h2>RSVP</h2>
+  <button id="invite" type="button">I'm Coming Through!</button>
+</div>
+
     </body><!--closing body tag-->
 
 <!--REDO FOOTER USING BOOTSTRAP-->

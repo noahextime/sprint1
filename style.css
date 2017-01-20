@@ -2,12 +2,8 @@
   font-family: 'Courier New';
   background-size: auto;
   box-sizing: border-box;
-  max-width: 1600px;
+  max-width: auto;
   /*border: 1px solid gray;*/
-}
-
-body {
-background-color: black;
 }
 
 .jumbotron {
@@ -15,7 +11,7 @@ background-image: url('images/castironpots.jpg');
 background-size: cover;
 background-attachment: fixed;
 color: #ffffff;
-padding: 100px 25px;
+padding: 250px 25px 410px 25px;
 }
 
 .navbar-brand{
@@ -26,62 +22,52 @@ padding: 100px 25px;
 .navbar-nav{
   color: ghostwhite;
   font-size: 110%;
+  font-weight: 600;
 }
 
 .navbar-btn{
-  padding-left: 22px;
-  padding-right: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: ghostwhite;
+  font-size: 110%;
+}
+
+.bg-1{
+  padding: 110px 25px 100px 25px;
   font-size: 120%;
+  text-align: center;
+  background-color: firebrick;
+}
+
+.bg-2{
+  background-image: url("images/steak.gif");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 40px;
+  text-align: center;
 }
 
 .bg-chalk{
   background-image: url("images/chalkboard.jpeg");
-  background-attachment: fixed;
-  padding: 80px 25px;
-}
-
-#about{
-  border: 2px solid red;
-  border-radius: 8px;
-  width: border-box;
-  margin: 12px 0px 8px 0px;
-  padding: 18px 14px;
-  opacity: .8;
-  background: black url(images/ingredient.gif) no-repeat fixed bottom;
-  background-size: cover;
-  font-weight: 500;
-}
-
-#dinnermenu {
-  width: border-box;
-  text-align: center;
-  padding: 18px 8px;
-  border: 2px solid firebrick;
-  border-radius: 8px;
-  background-image: url("http://www.chuckboecking.com/wp-content/uploads/2014/10/chalkboard-slider-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
-}
-
-#RSVP {
-  width: border-box;
-  border-radius: 8px;
+  padding: 150px 25px;
   text-align: center;
-  padding: 20px;
-  margin: 12px 12px;
-  position: relative;
-  z-index: 1;
 }
 
-#rsvpbg{
+.howitworks {
+  text-align: center;
+  padding: 18px 28px 48px 28px;
+  border: 8px solid aliceblue;
+}
+
+.rsvpbg{
   background-size: cover;
-  opacity: .8;
   background-position: center;
   background-attachment: fixed;
-  border: solid 2px firebrick;
-  border-radius: 8px;
   background-image: url(images/campsetup.jpeg);
+  padding: 200px;
 }
 
 #foot {
@@ -103,8 +89,9 @@ p {
   font-size: 18px;
   color: white;
   text-align: center;
-  padding: 8px;
-  margin: 4px;
+  padding: 22px;
+  line-height: normal;
+  margin: 6px;
 }
 
 h1 {
@@ -116,15 +103,16 @@ h1 {
 }
 
 h2 {
-  font-size: 190%;
-  color: firebrick;
+  font-size: 300%;
+  color: aliceblue;
   padding: 12px;
   text-align: center;
 }
 
 h3 {
+  font-size: 250%;
   text-align: center;
-  color: ghostwhite;
+  color: firebrick;
   padding: 12px;
 }
 
@@ -135,21 +123,9 @@ h4 {
   color: firebrick;
 }
 
-/*
-li a {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  border-top: 2px solid red;
-  padding: 12px 14px;
-  margin: 0px;
-  transition: 0.3s;
-  width: 100%;
-}
 
 li a:hover{
-  color: darkslategray;
+  color: red;
   background-color: white;
   font-weight: bolder;
   border-top: 2px solid rgb(219,45,33);
@@ -160,17 +136,10 @@ li:active{
   color: red;
   font-weight: bolder;
   transform: translateY(4px); //adds pushed effect
-} */
-
-.main{
-  position: relative;
-  width: border-box;
-  margin-top: 2px;
-  margin-bottom: 12px;
-  background-attachment: fixed;
 }
 
-button{
+
+/*button{
   display: inline-block;
   padding: 12px;
   position: relative;
@@ -194,4 +163,4 @@ button:hover{
 
 button:active{
   transform: translateY(4px); //adds pushed effect
-}
+} */

@@ -1,5 +1,5 @@
 function myFunction(){
-
+  
 }//end myFunction
 
 $(function($) {
