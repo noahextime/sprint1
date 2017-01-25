@@ -1,125 +1,105 @@
 * {
   font-family: 'Courier New';
-  background-size: auto;
-  box-sizing: border-box;
-  max-width: auto;
-  /*border: 1px solid gray;*/
 }
+
 
 .jumbotron {
-background-image: url('images/castironpots.jpg');
+background-image: url("images/ramsay.gif");
 background-size: cover;
-background-attachment: fixed;
+background-repeat: no-repeat;
+background-attachment: local;
 color: #ffffff;
-padding: 250px 25px 410px 25px;
+padding: 200px 25px 200px 25px;
 }
 
-.navbar-brand{
-  color: ghostwhite;
-  font-size: 120%;
+.glyphicon{
+  font-size: 200%;
+  padding: 16px 8px 12px 8px;
 }
 
-.navbar-nav{
-  color: ghostwhite;
-  font-size: 110%;
-  font-weight: 600;
-}
-
-.navbar-btn{
-  padding-left: 20px;
-  padding-right: 20px;
-  color: ghostwhite;
-  font-size: 110%;
-}
-
-.bg-1{
-  padding: 110px 25px 100px 25px;
-  font-size: 120%;
-  text-align: center;
-  background-color: firebrick;
-}
-
-.bg-2{
-  background-image: url("images/steak.gif");
-  background-position: center;
+#spacer1{
+  background-image: url('images/castironpots.jpg');
   background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
-  padding: 40px;
-  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
-.bg-chalk{
+.spacer{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.howitworks{
+  padding: 50px 25px 75px 25px;
+
+}
+
+.bg-chalk {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  border: 8px solid aliceblue;
   background-image: url("images/chalkboard.jpeg");
   background-size: cover;
   background-attachment: fixed;
-  padding: 150px 25px;
-  text-align: center;
-}
-
-.howitworks {
-  text-align: center;
-  padding: 18px 28px 48px 28px;
-  border: 8px solid aliceblue;
 }
 
 .rsvpbg{
-  background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  background-image: url(images/campsetup.jpeg);
-  padding: 200px;
+  background-attachment: local;
+  background-image: url(images/castironpots.jpg);
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 
-#foot {
-  margin-top: 18px;
-  padding: 22px;
-  background-color: rgb(38, 37, 38);
-  border-radius: 8px;
+#rsvpdiv{
+  background-color: ghostwhite;
+}
+
+.bg-2{
+  background-image: url("images/brushback.jpg");
+}
+
+.bg-3{
+color: ghostwhite;
 }
 
 #closer{
   text-align: left;
   font-size: smaller;
-  padding-top: 26px;
+  padding-top: 8px;
   color: aliceblue;
+  background-image:url("images/chalkboard.jpeg");
   border-bottom: 4px solid red;
 }
 
 p {
-  font-size: 18px;
   color: white;
-  text-align: center;
-  padding: 22px;
-  line-height: normal;
-  margin: 6px;
+  padding: 8px;
+  font-size: 110%;
 }
 
 h1 {
   color: aliceblue;
   font-size: 350%;
-  letter-spacing: 2px;
-  padding: 4px;
+  letter-spacing: 3px;
+  padding: 8px;
   text-shadow: 2px 2px white;
 }
 
 h2 {
-  font-size: 300%;
   color: aliceblue;
-  padding: 12px;
-  text-align: center;
 }
 
 h3 {
-  font-size: 250%;
-  text-align: center;
   color: firebrick;
-  padding: 12px;
 }
 
 h4 {
-  text-align: center;
-  padding: 4px;
-  margin: 4px;
   color: firebrick;
 }
 
@@ -127,15 +107,7 @@ h4 {
 li a:hover{
   color: red;
   background-color: white;
-  font-weight: bolder;
   border-top: 2px solid rgb(219,45,33);
-}
-
-li:active{
-  background-color: darkslategray;
-  color: red;
-  font-weight: bolder;
-  transform: translateY(4px); //adds pushed effect
 }
 
 
