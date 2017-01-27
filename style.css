@@ -12,8 +12,13 @@ color: #ffffff;
 padding: 200px 25px 200px 25px;
 }
 
+#first{
+  background-color: darkgrey;
+  color: aliceblue;
+}
+
 .glyphicon{
-  font-size: 200%;
+  font-size: 175%;
   padding: 16px 8px 12px 8px;
 }
 
@@ -36,16 +41,17 @@ padding: 200px 25px 200px 25px;
 
 .howitworks{
   padding: 50px 25px 75px 25px;
-
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: red;
 }
 
 .bg-chalk {
   padding-top: 150px;
   padding-bottom: 150px;
-  border: 8px solid aliceblue;
-  background-image: url("images/chalkboard.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
+  border: 4px solid aliceblue;
+  color: red;
+  /* background-image: url("images/chalkboard.jpeg"); */
 }
 
 .rsvpbg{
@@ -56,16 +62,21 @@ padding: 200px 25px 200px 25px;
   padding-bottom: 250px;
 }
 
-#rsvpdiv{
-  background-color: ghostwhite;
-}
-
 .bg-2{
-  background-image: url("images/brushback.jpg");
+  background-image: url("images/campsetup.jpeg");
 }
 
 .bg-3{
 color: ghostwhite;
+background-image: url("images/brushedback.jpg")
+}
+
+#final{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  border: 4px solid aliceblue;
+  background-image:url("images/chalkboard.jpeg");
+
 }
 
 #closer{
@@ -74,7 +85,8 @@ color: ghostwhite;
   padding-top: 8px;
   color: aliceblue;
   background-image:url("images/chalkboard.jpeg");
-  border-bottom: 4px solid red;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid red;
 }
 
 p {

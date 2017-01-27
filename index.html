@@ -5,76 +5,84 @@
      <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><!--mobile friendly w zoom-->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link type="text/CSS" href="style.css" rel="stylesheet">
-    <title>Sprint 1: Noah</title>
+    <link type="text/CSS" href="style.css" rel="stylesheet">
+      <title>Sprint 1: Noah</title>
   </head><!--closing header tag-->
 
 <body><!--BODY BEGINS-->
-
   <!--BS navigation-->
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    <a class="navbar-brand" href="#">Family Dinner</a>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+    </div>
+    <a class="navbar-brand" id="myNavBar" href="#">Family Dinner</a>
       </div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">HOME</a></li>
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Backstory</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Progress</a></li>
-          </ul>
-        </li>
-        <li><a href="#">INQUIRIES</a></li>
-        <li><a href="#">BLOG</a></li>
-      </ul>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Backstory</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Progress</a></li>
+              </ul>
+            </li>
+          <li><a href="#">INQUIRIES</a></li>
+          <li><a href="#">BLOG</a></li>
+        </ul>
     </div>
   </nav>
 <!--end navigation-->
 
-    <div class="jumbotron text-center">
-        <h1>FAMILY DINNER</h1>
-        <p>Tools For Home Cooks, By Home Cooks</p>
+  <div class="jumbotron text-center">
+    <h1>FAMILY DINNER</h1>
+    <p>Designing Delicious</p>
       <form class="form-inline">
-          <div class="input-group">
-            <input type="tastepref" class="form-control" size="50" placeholder="What are you hungry for?" required>
-              <div class="input-group-btn">
-                <button type="button" class="btn btn-danger">Thank You, Chef!</button>
-              </div>
+        <div class="input-group">
+          <input type="tastepref" class="form-control" size="50" placeholder="What are you hungry for?" required>
+            <div class="input-group-btn">
+                <button type="button" class="btn btn-danger">Thank You, Chef!
+                </button>
             </div>
-          </form>
-    </div><!--end jumbotron-->
+          </input>
+        </div>
+      </form>
+</div><!--end jumbotron-->
 
+<div class="container-fluid spacer" id="first">
+  <h1>Our Mission</h1>
+  <h1><small>We believe community is sustained through good food and good company.</small></h1>
+    <p><mark>Family Dinner</mark> is a tool designed to make this practice more sustainable.</p>
+    <p>We compile your guests data with your preferences to scaffold meaningful engagements.</p>
+</div>
 
-<!-- REDO SECTIONS USING BOOTSTRAP -->
 <div class="container-fluid howitworks text-center">
   <div class="container bg-chalk">
-  <h1>HOW IT WORKS:</h1>
-    <br><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Step 1<br><span class="glyphicon glyphicon-calendar"></span></h3>
-      <p>Schedule dinner and invite guests through the platform</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Step 2<br><span class="glyphicon glyphicon-leaf"></span></h3>
-      <p>Confirmed guests submit key information through RSVP process</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Step 3<br><span class="glyphicon glyphicon-fire"></span></h3>
-      <p>We crunch the data into an easy to use report, saving you time and energy to cook</p>
-    </div>
-  </div>
- </div><!--end   how it works div-->
-</div><!--end bg chalk div-->
+    <h1>THE TECH</h1>
+    <h1><small>HOW IT WORKS:</small></h1>
+      <br><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>Step 1<br><span class="glyphicon glyphicon-calendar"></span></h2>
+          <p>Schedule your gathering and invite guests directly through the platform</p>
+      </div>
+        <div class="col-sm-4">
+          <h2>Step 2<br><span class="glyphicon glyphicon-leaf"></span></h2>
+          <p>Guests confirm through a short n' sweet RSVP process</p>
+        </div>
+          <div class="col-sm-4">
+            <h2>Step 3<br><span class="glyphicon glyphicon-fire"></span></h2>
+            <p>We keep you updated, while providing useful tips; saving you time, money, and energy</p>
+          </div>
+    </div><!--end row-->
+  </div><!--end bg chalk div-->
+</div><!--end bg chalk div--><!--end   how it works div-->
 
 
 <!--START RSVP section-->
@@ -97,15 +105,16 @@
 
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
-    </div>
+     </div>
     </div>
   </div>
 
 <div class="container-fluid bg-2 spacer text-center">
-  <h4>Family Dinner: Tools For Home Cooks, <br>By Home Cooks</h4>
-  <h4 id="contact">Down the Street, Oakland, CA 94444</h4>
-  <h4 id="hours">Sundays, 4pm-11pm</h4><br>
+  <div class="container" id="final">
+    <h2>Family Dinner: <br><small>Designing Delicious</small></h2>
+    <h3 id="contact">Down the Street, Oakland, CA 94444</h3>
   </div>
+</div>
 </body><!--closing body tag-->
 
 <!--REDO FOOTER USING BOOTSTRAP-->
